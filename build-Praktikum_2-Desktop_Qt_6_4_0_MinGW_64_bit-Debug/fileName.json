@@ -1,0 +1,772 @@
+[
+    {
+        "Flugbuchungen": [
+            {
+                "airline": "Lufthansa",
+                "fromDate": "20210216",
+                "fromDest": "FRA",
+                "id": "1",
+                "price": "2099",
+                "toDate": "",
+                "toDest": "SFO"
+            },
+            {
+                "airline": "United Airlines",
+                "fromDate": "20210222",
+                "fromDest": "SFO",
+                "id": "4",
+                "price": "300",
+                "toDate": "",
+                "toDest": "PHL"
+            },
+            {
+                "airline": "AirCanada",
+                "fromDate": "20210225",
+                "fromDest": "PHL",
+                "id": "7",
+                "price": "250.49",
+                "toDate": "",
+                "toDest": "YUL"
+            },
+            {
+                "airline": "Air Canada",
+                "fromDate": "20210228",
+                "fromDest": "YUL",
+                "id": "9",
+                "price": "1850",
+                "toDate": "",
+                "toDest": "FRA"
+            },
+            {
+                "airline": "Lufthansa",
+                "fromDate": "20210402",
+                "fromDest": "FRA",
+                "id": "10",
+                "price": "1799",
+                "toDate": "",
+                "toDest": "YUL"
+            },
+            {
+                "airline": "Delta Airlines",
+                "fromDate": "20210404",
+                "fromDest": "YUL",
+                "id": "12",
+                "price": "299",
+                "toDate": "",
+                "toDest": "PHL"
+            },
+            {
+                "airline": "Southwest Airlines",
+                "fromDate": "20210408",
+                "fromDest": "PHL",
+                "id": "15",
+                "price": "260.49",
+                "toDate": "",
+                "toDest": "SFO"
+            },
+            {
+                "airline": "Virgin America",
+                "fromDate": "20210412",
+                "fromDest": "SFO",
+                "id": "18",
+                "price": "133.2",
+                "toDate": "",
+                "toDest": "SAN"
+            },
+            {
+                "airline": "Lufthansa",
+                "fromDate": "20210415",
+                "fromDest": "LAX",
+                "id": "21",
+                "price": "2594.21",
+                "toDate": "",
+                "toDest": "FRA"
+            },
+            {
+                "airline": "Lufthansa",
+                "fromDate": "20210501",
+                "fromDest": "FRA",
+                "id": "22",
+                "price": "2332.21",
+                "toDate": "",
+                "toDest": "PVG"
+            },
+            {
+                "airline": "Lufthansa",
+                "fromDate": "20210510",
+                "fromDest": "PVG",
+                "id": "24",
+                "price": "2463.02",
+                "toDate": "",
+                "toDest": "FRA"
+            },
+            {
+                "airline": "Austrian Airlines",
+                "fromDate": "20210301",
+                "fromDest": "FRA",
+                "id": "25",
+                "price": "167.01",
+                "toDate": "",
+                "toDest": "VIE"
+            },
+            {
+                "airline": "Austrian Airlines",
+                "fromDate": "20210302",
+                "fromDest": "VIE",
+                "id": "28",
+                "price": "167.01",
+                "toDate": "",
+                "toDest": "FRA"
+            },
+            {
+                "airline": "Air Berlin",
+                "fromDate": "20210201",
+                "fromDest": "HAM",
+                "id": "29",
+                "price": "258.03",
+                "toDate": "",
+                "toDest": "MUC"
+            },
+            {
+                "airline": "Air Berlin",
+                "fromDate": "20210201",
+                "fromDest": "MUC",
+                "id": "30",
+                "price": "251.03",
+                "toDate": "",
+                "toDest": "HAM"
+            },
+            {
+                "airline": "Vueling Airlines",
+                "fromDate": "20210401",
+                "fromDest": "MUC",
+                "id": "31",
+                "price": "316.01",
+                "toDate": "",
+                "toDest": "BCN"
+            },
+            {
+                "airline": "Vueling Airlines",
+                "fromDate": "20210404",
+                "fromDest": "BCN",
+                "id": "34",
+                "price": "288.93",
+                "toDate": "",
+                "toDest": "MUC"
+            },
+            {
+                "airline": "Lufthansa",
+                "fromDate": "20210602",
+                "fromDest": "STR",
+                "id": "35",
+                "price": "277.01",
+                "toDate": "",
+                "toDest": "WAW"
+            },
+            {
+                "airline": "Lufthansa",
+                "fromDate": "20210603",
+                "fromDest": "WAW",
+                "id": "38",
+                "price": "288.93",
+                "toDate": "",
+                "toDest": "STR"
+            },
+            {
+                "airline": "Indian Airlines",
+                "fromDate": "20210323",
+                "fromDest": "FRA",
+                "id": "39",
+                "price": "3298.08",
+                "toDate": "",
+                "toDest": "DEL"
+            },
+            {
+                "airline": "Jet Airways",
+                "fromDate": "20210325",
+                "fromDest": "DEL",
+                "id": "41",
+                "price": "218.78",
+                "toDate": "",
+                "toDest": "BLR"
+            },
+            {
+                "airline": "Singapur Airlines",
+                "fromDate": "20210328",
+                "fromDest": "BLR",
+                "id": "43",
+                "price": "2778.18",
+                "toDate": "",
+                "toDest": "SIN"
+            },
+            {
+                "airline": "All Nippon Airways",
+                "fromDate": "20210329",
+                "fromDest": "SIN",
+                "id": "44",
+                "price": "2543.21",
+                "toDate": "",
+                "toDest": "HND"
+            },
+            {
+                "airline": "Lufthansa",
+                "fromDate": "20210402",
+                "fromDest": "HND",
+                "id": "46",
+                "price": "4543.21",
+                "toDate": "",
+                "toDest": "FRA"
+            },
+            {
+                "airline": "Vueling Airlines",
+                "fromDate": "20210503",
+                "fromDest": "MUC",
+                "id": "47",
+                "price": "304.01",
+                "toDate": "",
+                "toDest": "BCN"
+            },
+            {
+                "airline": "Vueling Airlines",
+                "fromDate": "20210505",
+                "fromDest": "BCN",
+                "id": "50",
+                "price": "283.93",
+                "toDate": "",
+                "toDest": "MUC"
+            },
+            {
+                "airline": "Air Berlin",
+                "fromDate": "20210101",
+                "fromDest": "MUC",
+                "id": "51",
+                "price": "258.03",
+                "toDate": "",
+                "toDest": "HAM"
+            },
+            {
+                "airline": "Air Berlin",
+                "fromDate": "20210112",
+                "fromDest": "HAM",
+                "id": "53",
+                "price": "251.03",
+                "toDate": "",
+                "toDest": "MUC"
+            },
+            {
+                "airline": "Lufthansa",
+                "fromDate": "20210604",
+                "fromDest": "FRA",
+                "id": "54",
+                "price": "2892.04",
+                "toDate": "",
+                "toDest": "GRU"
+            },
+            {
+                "airline": "TAM Linhas A�reas",
+                "fromDate": "20210605",
+                "fromDest": "GRU",
+                "id": "55",
+                "price": "234.91",
+                "toDate": "",
+                "toDest": "POA"
+            },
+            {
+                "airline": "TAM Linhas A�reas",
+                "fromDate": "20210617",
+                "fromDest": "POA",
+                "id": "58",
+                "price": "224.19",
+                "toDate": "",
+                "toDest": "GRU"
+            },
+            {
+                "airline": "Lufthansa",
+                "fromDate": "20210617",
+                "fromDest": "GRU",
+                "id": "59",
+                "price": "2634.24",
+                "toDate": "",
+                "toDest": "FRA"
+            },
+            {
+                "airline": "Austrian Airlines",
+                "fromDate": "20210809",
+                "fromDest": "FRA",
+                "id": "60",
+                "price": "187.93",
+                "toDate": "",
+                "toDest": "VIE"
+            },
+            {
+                "airline": "Austrian Airlines",
+                "fromDate": "20210814",
+                "fromDest": "VIE",
+                "id": "63",
+                "price": "167.01",
+                "toDate": "",
+                "toDest": "FRA"
+            },
+            {
+                "airline": "Rhein-Neckar Air",
+                "fromDate": "20210313",
+                "fromDest": "MHG",
+                "id": "64",
+                "price": "145",
+                "toDate": "",
+                "toDest": "HAM"
+            },
+            {
+                "airline": "Scandinavian Airlines",
+                "fromDate": "20210321",
+                "fromDest": "AAR",
+                "id": "68",
+                "price": "245",
+                "toDate": "",
+                "toDest": "TXL"
+            },
+            {
+                "airline": "Rhein-Neckar Air",
+                "fromDate": "20210321",
+                "fromDest": "TXL",
+                "id": "69",
+                "price": "165",
+                "toDate": "",
+                "toDest": "MHG"
+            },
+            {
+                "airline": "United Airlines",
+                "fromDate": "20210104",
+                "fromDest": "FRA",
+                "id": "70",
+                "price": "1499",
+                "toDate": "",
+                "toDest": "ORD"
+            },
+            {
+                "airline": "United Airlines",
+                "fromDate": "20210109",
+                "fromDest": "ORD",
+                "id": "73",
+                "price": "1358",
+                "toDate": "",
+                "toDest": "FRA"
+            },
+            {
+                "airline": "Air France",
+                "fromDate": "20210608",
+                "fromDest": "STR",
+                "id": "74",
+                "price": "330",
+                "toDate": "",
+                "toDest": "CDG"
+            },
+            {
+                "airline": "Air France",
+                "fromDate": "20210612",
+                "fromDest": "CDG",
+                "id": "76",
+                "price": "290",
+                "toDate": "",
+                "toDest": "STR"
+            },
+            {
+                "airline": "Lufthansa",
+                "fromDate": "20210309",
+                "fromDest": "MUC",
+                "id": "77",
+                "price": "2504.01",
+                "toDate": "",
+                "toDest": "PHX"
+            },
+            {
+                "airline": "Air Canada",
+                "fromDate": "20210313",
+                "fromDest": "LAS",
+                "id": "81",
+                "price": "3104.01",
+                "toDate": "",
+                "toDest": "FRA"
+            },
+            {
+                "airline": "Lufthansa",
+                "fromDate": "20210904",
+                "fromDest": "FRA",
+                "id": "82",
+                "price": "2892.04",
+                "toDate": "",
+                "toDest": "GRU"
+            },
+            {
+                "airline": "TAM Linhas Aereas",
+                "fromDate": "20210905",
+                "fromDest": "GRU",
+                "id": "83",
+                "price": "234.61",
+                "toDate": "",
+                "toDest": "POA"
+            },
+            {
+                "airline": "TAM Linhas Aereas",
+                "fromDate": "20210917",
+                "fromDest": "POA",
+                "id": "86",
+                "price": "224.13",
+                "toDate": "",
+                "toDest": "GRU"
+            },
+            {
+                "airline": "Lufthansa",
+                "fromDate": "20210917",
+                "fromDest": "GRU",
+                "id": "87",
+                "price": "2674.34",
+                "toDate": "",
+                "toDest": "FRA"
+            }
+        ]
+    },
+    {
+        "Mietwagenreservierungen": [
+            {
+                "company": "Hertz",
+                "fromDate": "20210216",
+                "id": "3",
+                "pickupLocation": "San Francisco International Airport",
+                "price": "299",
+                "returnLocation": "San Francisco International Airport",
+                "toDate": "20210222"
+            },
+            {
+                "company": "Budget",
+                "fromDate": "20210222",
+                "id": "6",
+                "pickupLocation": "Philadelphia International Airport",
+                "price": "119",
+                "returnLocation": "Philadelphia International Airport",
+                "toDate": "20210225"
+            },
+            {
+                "company": "Budget",
+                "fromDate": "20210404",
+                "id": "14",
+                "pickupLocation": "Philadelphia International Airport",
+                "price": "166",
+                "returnLocation": "Philadelphia International Airport",
+                "toDate": "20210408"
+            },
+            {
+                "company": "Avis",
+                "fromDate": "20210408",
+                "id": "17",
+                "pickupLocation": "San Francisco International Airport",
+                "price": "300",
+                "returnLocation": "San Francisco International Airport",
+                "toDate": "20210412"
+            },
+            {
+                "company": "Avis",
+                "fromDate": "20210412",
+                "id": "19",
+                "pickupLocation": "San Diego International Airport",
+                "price": "111.25",
+                "returnLocation": "Los Angeles International Airport",
+                "toDate": "20210415"
+            },
+            {
+                "company": "Sixt",
+                "fromDate": "20210301",
+                "id": "26",
+                "pickupLocation": "Wien-Schwechat Flughafen",
+                "price": "65.01",
+                "returnLocation": "Wien-Schwechat Flughafen",
+                "toDate": "20210302"
+            },
+            {
+                "company": "Europcar",
+                "fromDate": "20210401",
+                "id": "32",
+                "pickupLocation": "BARCELONA FLUGHAFEN TERMINAL 1",
+                "price": "111.01",
+                "returnLocation": "BARCELONA FLUGHAFEN TERMINAL 1",
+                "toDate": "20210404"
+            },
+            {
+                "company": "Europcar",
+                "fromDate": "20210602",
+                "id": "36",
+                "pickupLocation": "WARSCHAU CHOPIN FLUGHAFEN",
+                "price": "167.01",
+                "returnLocation": "WARSCHAU CHOPIN FLUGHAFEN",
+                "toDate": "20210603"
+            },
+            {
+                "company": "Europcar",
+                "fromDate": "20210503",
+                "id": "48",
+                "pickupLocation": "BARCELONA FLUGHAFEN TERMINAL 1",
+                "price": "123.01",
+                "returnLocation": "BARCELONA FLUGHAFEN TERMINAL 1",
+                "toDate": "20210505"
+            },
+            {
+                "company": "Hertz",
+                "fromDate": "20210605",
+                "id": "56",
+                "pickupLocation": "Porto Alegre Airport",
+                "price": "1345.82",
+                "returnLocation": "Porto Alegre Airport",
+                "toDate": "20210617"
+            },
+            {
+                "company": "Sixt",
+                "fromDate": "20210809",
+                "id": "61",
+                "pickupLocation": "Wien-Schwechat Flughafen",
+                "price": "265.11",
+                "returnLocation": "Wien-Schwechat Flughafen",
+                "toDate": "20210814"
+            },
+            {
+                "company": "Europcar",
+                "fromDate": "20210313",
+                "id": "65",
+                "pickupLocation": "Hamburg Flughafen",
+                "price": "765.11",
+                "returnLocation": "Aarhus Flughafen",
+                "toDate": "20210321"
+            },
+            {
+                "company": "Avis",
+                "fromDate": "20210104",
+                "id": "71",
+                "pickupLocation": "Chicago OHare Intl Airport",
+                "price": "466",
+                "returnLocation": "Chicago OHare Intl Airport",
+                "toDate": "20210109"
+            },
+            {
+                "company": "Avis",
+                "fromDate": "20210309",
+                "id": "78",
+                "pickupLocation": "Phoenix Sky Harbor Int'l Airport",
+                "price": "423.01",
+                "returnLocation": "McCarran Intl Airport, Las Vegas",
+                "toDate": "20210313"
+            },
+            {
+                "company": "Avis",
+                "fromDate": "20210905",
+                "id": "84",
+                "pickupLocation": "Porto Alegre Airport",
+                "price": "1345.72",
+                "returnLocation": "Porto Alegre Airport",
+                "toDate": "20210917"
+            }
+        ]
+    },
+    {
+        "Hotelbuchungen": [
+            {
+                "fromDate": "20210216",
+                "hotel": "Ritz-Carlton",
+                "id": "2",
+                "price": "1284",
+                "toDate": "20210222",
+                "town": "Halfmoon Bay"
+            },
+            {
+                "fromDate": "20210222",
+                "hotel": "Courtyard Devon",
+                "id": "5",
+                "price": "390",
+                "toDate": "20210225",
+                "town": "Wayne"
+            },
+            {
+                "fromDate": "20210225",
+                "hotel": "L'Hotel Montreal",
+                "id": "8",
+                "price": "360.36",
+                "toDate": "20210228",
+                "town": "Montreal"
+            },
+            {
+                "fromDate": "20210402",
+                "hotel": "L'Hotel Montreal",
+                "id": "11",
+                "price": "245",
+                "toDate": "20210404",
+                "town": "Montreal"
+            },
+            {
+                "fromDate": "20210405",
+                "hotel": "Courtyard Devon",
+                "id": "13",
+                "price": "476",
+                "toDate": "20210408",
+                "town": "Wayne"
+            },
+            {
+                "fromDate": "20210408",
+                "hotel": "Crowne Plaza",
+                "id": "16",
+                "price": "510.36",
+                "toDate": "20210412",
+                "town": "PaloAlto"
+            },
+            {
+                "fromDate": "20210412",
+                "hotel": "Grand Pacific",
+                "id": "20",
+                "price": "377.36",
+                "toDate": "20210415",
+                "town": "Carlsbad"
+            },
+            {
+                "fromDate": "20210502",
+                "hotel": "Shanghai Marriott",
+                "id": "23",
+                "price": "1101.03",
+                "toDate": "20210510",
+                "town": "Shanghai"
+            },
+            {
+                "fromDate": "20210301",
+                "hotel": "Hotel Kummer",
+                "id": "27",
+                "price": "199.99",
+                "toDate": "20210302",
+                "town": "Wien"
+            },
+            {
+                "fromDate": "20210401",
+                "hotel": "Tarraco Park",
+                "id": "33",
+                "price": "381.01",
+                "toDate": "20210405",
+                "town": "Tarragona"
+            },
+            {
+                "fromDate": "20210602",
+                "hotel": "Residence 1898",
+                "id": "37",
+                "price": "256.02",
+                "toDate": "20210603",
+                "town": "Warschau"
+            },
+            {
+                "fromDate": "20210323",
+                "hotel": "The Leela Palace",
+                "id": "40",
+                "price": "556.02",
+                "toDate": "20210325",
+                "town": "New Delhi"
+            },
+            {
+                "fromDate": "20210325",
+                "hotel": "The Oberoi",
+                "id": "42",
+                "price": "611.43",
+                "toDate": "20210328",
+                "town": "Bangalore"
+            },
+            {
+                "fromDate": "20210329",
+                "hotel": "Daiichi Hotel Annex",
+                "id": "45",
+                "price": "611.43",
+                "toDate": "20210402",
+                "town": "Tokyo"
+            },
+            {
+                "fromDate": "20210503",
+                "hotel": "Tarraco Park",
+                "id": "49",
+                "price": "356.01",
+                "toDate": "20210505",
+                "town": "Tarragona"
+            },
+            {
+                "fromDate": "20210101",
+                "hotel": "Hotel Atlantic",
+                "id": "52",
+                "price": "1224.04",
+                "toDate": "20210112",
+                "town": "Hamburg"
+            },
+            {
+                "fromDate": "20210605",
+                "hotel": "Radisson",
+                "id": "57",
+                "price": "2986",
+                "toDate": "20210617",
+                "town": "Porto Alegre"
+            },
+            {
+                "fromDate": "20210809",
+                "hotel": "Hotel Kummer",
+                "id": "62",
+                "price": "199.99",
+                "toDate": "20210814",
+                "town": "Wien"
+            },
+            {
+                "fromDate": "20210313",
+                "hotel": "Thomas Hotel Spa & Lifestyle",
+                "id": "66",
+                "price": "424.04",
+                "toDate": "20210317",
+                "town": "Husum"
+            },
+            {
+                "fromDate": "20210318",
+                "hotel": "Radisson Blu Scandinavia",
+                "id": "67",
+                "price": "413.03",
+                "toDate": "20210321",
+                "town": "Aarhus"
+            },
+            {
+                "fromDate": "20210104",
+                "hotel": "Mark Twain Hotel",
+                "id": "72",
+                "price": "501.03",
+                "toDate": "20210109",
+                "town": "Peoria"
+            },
+            {
+                "fromDate": "20210608",
+                "hotel": "Citadines Saint-Germain-des-Pr�s",
+                "id": "75",
+                "price": "751.03",
+                "toDate": "20210612",
+                "town": "Paris"
+            },
+            {
+                "fromDate": "20210309",
+                "hotel": "Little America",
+                "id": "79",
+                "price": "253.87",
+                "toDate": "20210311",
+                "town": "Flagstaff"
+            },
+            {
+                "fromDate": "20210311",
+                "hotel": "Bellagio",
+                "id": "80",
+                "price": "951.11",
+                "toDate": "20210313",
+                "town": "Las Vegas"
+            },
+            {
+                "fromDate": "20210905",
+                "hotel": "Plaza Sao Rafael",
+                "id": "85",
+                "price": "2986.12",
+                "toDate": "20210917",
+                "town": "Porto Alegre"
+            }
+        ]
+    }
+]

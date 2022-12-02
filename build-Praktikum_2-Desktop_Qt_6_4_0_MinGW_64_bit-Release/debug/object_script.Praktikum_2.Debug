@@ -1,0 +1,10 @@
+debug/booking.o
+debug/flightbooking.o
+debug/hotelbooking.o
+debug/importsuccess.o
+debug/main.o
+debug/mainwindow.o
+debug/rentalcarreservation.o
+debug/travelagency.o
+debug/moc_importsuccess.o
+debug/moc_mainwindow.o
