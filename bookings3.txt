@@ -103,4 +103,4 @@ H|102|511.23|20150724|20150728|19|9|Simone de Beauvoir|Scandic Elmia|Jönköping
 H|103|1513.92|20150728|20150801|19|9|Simone de Beauvoir|Grand Hotel Stockholm|Stockholm
 H|104|221.0|20150801|20150802|19|9|Simone de Beauvoir|Upper House|Göteborg
 F|105|199.64|20150802|20150802|19|9|Simone de Beauvoir|GOT|FRA|Scandinavian Airlines
-R|106|562.45|20150802|20150802|19|9|Simone de Beauvoir|Frankfurt Flughafen|Mannheim Neckarau|Europcar
+R|106|56.45|20150802|20150802|19|9|Simone de Beauvoir|Frankfurt Flughafen|Mannheim Neckarau|Europcar

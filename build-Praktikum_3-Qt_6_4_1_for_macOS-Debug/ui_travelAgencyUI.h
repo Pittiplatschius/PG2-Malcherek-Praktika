@@ -22,6 +22,7 @@
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTabWidget>
@@ -36,17 +37,21 @@ class Ui_MainWindow
 public:
     QAction *actionEinlesen;
     QAction *actionBuchungSuchen;
-    QAction *actionAlle_anzeigen;
+    QAction *actionBuchungen_anzeigen;
     QAction *actionExportieren;
     QAction *actionListe_sortieren;
     QAction *actionKundeSuchen;
+    QAction *actionKunden_anzeigen;
+    QAction *actionReisen_anzeigen;
     QWidget *centralwidget;
     QHBoxLayout *horizontalLayout;
     QHBoxLayout *horizontalLayout_2;
     QListWidget *listWidget;
+    QVBoxLayout *verticalLayout_10;
     QTabWidget *tabWidget;
     QWidget *tab;
-    QHBoxLayout *horizontalLayout_4;
+    QVBoxLayout *verticalLayout;
+    QHBoxLayout *horizontalLayout_3;
     QVBoxLayout *verticalLayout_3;
     QLabel *label;
     QSpacerItem *verticalSpacer;
@@ -74,7 +79,8 @@ public:
     QDoubleSpinBox *doubleSpinBox;
     QSpacerItem *verticalSpacer_34;
     QWidget *tab_2;
-    QHBoxLayout *horizontalLayout_5;
+    QVBoxLayout *verticalLayout_2;
+    QHBoxLayout *horizontalLayout_4;
     QVBoxLayout *verticalLayout_5;
     QLabel *label_7;
     QSpacerItem *verticalSpacer_11;
@@ -106,7 +112,8 @@ public:
     QDoubleSpinBox *doubleSpinBox_2;
     QSpacerItem *verticalSpacer_36;
     QWidget *tab_3;
-    QHBoxLayout *horizontalLayout_6;
+    QVBoxLayout *verticalLayout_9;
+    QHBoxLayout *horizontalLayout_5;
     QVBoxLayout *verticalLayout_7;
     QLabel *label_14;
     QSpacerItem *verticalSpacer_23;
@@ -144,6 +151,7 @@ public:
     QWidget *tab_5;
     QVBoxLayout *verticalLayout_21;
     QTableWidget *tableWidget_2;
+    QPushButton *pushButton;
     QMenuBar *menubar;
     QMenu *menuEinlesen;
     QMenu *menuBuchungen;
@@ -154,19 +162,23 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(755, 468);
+        MainWindow->resize(682, 455);
         actionEinlesen = new QAction(MainWindow);
         actionEinlesen->setObjectName("actionEinlesen");
         actionBuchungSuchen = new QAction(MainWindow);
         actionBuchungSuchen->setObjectName("actionBuchungSuchen");
-        actionAlle_anzeigen = new QAction(MainWindow);
-        actionAlle_anzeigen->setObjectName("actionAlle_anzeigen");
+        actionBuchungen_anzeigen = new QAction(MainWindow);
+        actionBuchungen_anzeigen->setObjectName("actionBuchungen_anzeigen");
         actionExportieren = new QAction(MainWindow);
         actionExportieren->setObjectName("actionExportieren");
         actionListe_sortieren = new QAction(MainWindow);
         actionListe_sortieren->setObjectName("actionListe_sortieren");
         actionKundeSuchen = new QAction(MainWindow);
         actionKundeSuchen->setObjectName("actionKundeSuchen");
+        actionKunden_anzeigen = new QAction(MainWindow);
+        actionKunden_anzeigen->setObjectName("actionKunden_anzeigen");
+        actionReisen_anzeigen = new QAction(MainWindow);
+        actionReisen_anzeigen->setObjectName("actionReisen_anzeigen");
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         horizontalLayout = new QHBoxLayout(centralwidget);
@@ -185,14 +197,18 @@ public:
 
         horizontalLayout_2->addWidget(listWidget);
 
+        verticalLayout_10 = new QVBoxLayout();
+        verticalLayout_10->setObjectName("verticalLayout_10");
         tabWidget = new QTabWidget(centralwidget);
         tabWidget->setObjectName("tabWidget");
         sizePolicy.setHeightForWidth(tabWidget->sizePolicy().hasHeightForWidth());
         tabWidget->setSizePolicy(sizePolicy);
         tab = new QWidget();
         tab->setObjectName("tab");
-        horizontalLayout_4 = new QHBoxLayout(tab);
-        horizontalLayout_4->setObjectName("horizontalLayout_4");
+        verticalLayout = new QVBoxLayout(tab);
+        verticalLayout->setObjectName("verticalLayout");
+        horizontalLayout_3 = new QHBoxLayout();
+        horizontalLayout_3->setObjectName("horizontalLayout_3");
         verticalLayout_3 = new QVBoxLayout();
         verticalLayout_3->setObjectName("verticalLayout_3");
         label = new QLabel(tab);
@@ -250,7 +266,7 @@ public:
         verticalLayout_3->addItem(verticalSpacer_33);
 
 
-        horizontalLayout_4->addLayout(verticalLayout_3);
+        horizontalLayout_3->addLayout(verticalLayout_3);
 
         verticalLayout_4 = new QVBoxLayout();
         verticalLayout_4->setObjectName("verticalLayout_4");
@@ -310,13 +326,18 @@ public:
         verticalLayout_4->addItem(verticalSpacer_34);
 
 
-        horizontalLayout_4->addLayout(verticalLayout_4);
+        horizontalLayout_3->addLayout(verticalLayout_4);
+
+
+        verticalLayout->addLayout(horizontalLayout_3);
 
         tabWidget->addTab(tab, QString());
         tab_2 = new QWidget();
         tab_2->setObjectName("tab_2");
-        horizontalLayout_5 = new QHBoxLayout(tab_2);
-        horizontalLayout_5->setObjectName("horizontalLayout_5");
+        verticalLayout_2 = new QVBoxLayout(tab_2);
+        verticalLayout_2->setObjectName("verticalLayout_2");
+        horizontalLayout_4 = new QHBoxLayout();
+        horizontalLayout_4->setObjectName("horizontalLayout_4");
         verticalLayout_5 = new QVBoxLayout();
         verticalLayout_5->setObjectName("verticalLayout_5");
         label_7 = new QLabel(tab_2);
@@ -383,7 +404,7 @@ public:
         verticalLayout_5->addItem(verticalSpacer_35);
 
 
-        horizontalLayout_5->addLayout(verticalLayout_5);
+        horizontalLayout_4->addLayout(verticalLayout_5);
 
         verticalLayout_6 = new QVBoxLayout();
         verticalLayout_6->setObjectName("verticalLayout_6");
@@ -452,13 +473,18 @@ public:
         verticalLayout_6->addItem(verticalSpacer_36);
 
 
-        horizontalLayout_5->addLayout(verticalLayout_6);
+        horizontalLayout_4->addLayout(verticalLayout_6);
+
+
+        verticalLayout_2->addLayout(horizontalLayout_4);
 
         tabWidget->addTab(tab_2, QString());
         tab_3 = new QWidget();
         tab_3->setObjectName("tab_3");
-        horizontalLayout_6 = new QHBoxLayout(tab_3);
-        horizontalLayout_6->setObjectName("horizontalLayout_6");
+        verticalLayout_9 = new QVBoxLayout(tab_3);
+        verticalLayout_9->setObjectName("verticalLayout_9");
+        horizontalLayout_5 = new QHBoxLayout();
+        horizontalLayout_5->setObjectName("horizontalLayout_5");
         verticalLayout_7 = new QVBoxLayout();
         verticalLayout_7->setObjectName("verticalLayout_7");
         label_14 = new QLabel(tab_3);
@@ -516,7 +542,7 @@ public:
         verticalLayout_7->addItem(verticalSpacer_37);
 
 
-        horizontalLayout_6->addLayout(verticalLayout_7);
+        horizontalLayout_5->addLayout(verticalLayout_7);
 
         verticalLayout_8 = new QVBoxLayout();
         verticalLayout_8->setObjectName("verticalLayout_8");
@@ -576,7 +602,10 @@ public:
         verticalLayout_8->addItem(verticalSpacer_38);
 
 
-        horizontalLayout_6->addLayout(verticalLayout_8);
+        horizontalLayout_5->addLayout(verticalLayout_8);
+
+
+        verticalLayout_9->addLayout(horizontalLayout_5);
 
         tabWidget->addTab(tab_3, QString());
         tab_4 = new QWidget();
@@ -618,8 +647,15 @@ public:
         QTableWidgetItem *__qtablewidgetitem2 = new QTableWidgetItem();
         tableWidget->setHorizontalHeaderItem(2, __qtablewidgetitem2);
         tableWidget->setObjectName("tableWidget");
+        sizePolicy.setHeightForWidth(tableWidget->sizePolicy().hasHeightForWidth());
+        tableWidget->setSizePolicy(sizePolicy);
+        tableWidget->setEditTriggers(QAbstractItemView::NoEditTriggers);
+        tableWidget->setTabKeyNavigation(true);
+        tableWidget->setProperty("showDropIndicator", QVariant(true));
+        tableWidget->setDragDropOverwriteMode(false);
         tableWidget->setSelectionMode(QAbstractItemView::SingleSelection);
         tableWidget->setSelectionBehavior(QAbstractItemView::SelectRows);
+        tableWidget->setSortingEnabled(true);
         tableWidget->verticalHeader()->setVisible(false);
 
         verticalLayout_16->addWidget(tableWidget);
@@ -641,15 +677,27 @@ public:
         QTableWidgetItem *__qtablewidgetitem6 = new QTableWidgetItem();
         tableWidget_2->setHorizontalHeaderItem(3, __qtablewidgetitem6);
         tableWidget_2->setObjectName("tableWidget_2");
+        tableWidget_2->setEditTriggers(QAbstractItemView::NoEditTriggers);
+        tableWidget_2->setTabKeyNavigation(true);
+        tableWidget_2->setDragDropOverwriteMode(false);
         tableWidget_2->setSelectionMode(QAbstractItemView::SingleSelection);
         tableWidget_2->setSelectionBehavior(QAbstractItemView::SelectRows);
+        tableWidget_2->setSortingEnabled(true);
         tableWidget_2->verticalHeader()->setVisible(false);
 
         verticalLayout_21->addWidget(tableWidget_2);
 
         tabWidget->addTab(tab_5, QString());
 
-        horizontalLayout_2->addWidget(tabWidget);
+        verticalLayout_10->addWidget(tabWidget);
+
+        pushButton = new QPushButton(centralwidget);
+        pushButton->setObjectName("pushButton");
+
+        verticalLayout_10->addWidget(pushButton);
+
+
+        horizontalLayout_2->addLayout(verticalLayout_10);
 
 
         horizontalLayout->addLayout(horizontalLayout_2);
@@ -657,7 +705,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 755, 24));
+        menubar->setGeometry(QRect(0, 0, 682, 24));
         menuEinlesen = new QMenu(menubar);
         menuEinlesen->setObjectName("menuEinlesen");
         menuBuchungen = new QMenu(menubar);
@@ -675,7 +723,9 @@ public:
         menuEinlesen->addAction(actionEinlesen);
         menuEinlesen->addAction(actionExportieren);
         menuBuchungen->addAction(actionBuchungSuchen);
-        menuBuchungen->addAction(actionAlle_anzeigen);
+        menuBuchungen->addAction(actionBuchungen_anzeigen);
+        menuBuchungen->addAction(actionKunden_anzeigen);
+        menuBuchungen->addAction(actionReisen_anzeigen);
         menuBuchungen->addAction(actionListe_sortieren);
         menuKunden->addAction(actionKundeSuchen);
 
@@ -691,11 +741,13 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         actionEinlesen->setText(QCoreApplication::translate("MainWindow", "Einlesen", nullptr));
-        actionBuchungSuchen->setText(QCoreApplication::translate("MainWindow", "Suchen", nullptr));
-        actionAlle_anzeigen->setText(QCoreApplication::translate("MainWindow", "Alle anzeigen", nullptr));
+        actionBuchungSuchen->setText(QCoreApplication::translate("MainWindow", "Buchung suchen", nullptr));
+        actionBuchungen_anzeigen->setText(QCoreApplication::translate("MainWindow", "Buchungen anzeigen", nullptr));
         actionExportieren->setText(QCoreApplication::translate("MainWindow", "Exportieren", nullptr));
         actionListe_sortieren->setText(QCoreApplication::translate("MainWindow", "Liste sortieren", nullptr));
-        actionKundeSuchen->setText(QCoreApplication::translate("MainWindow", "Suchen", nullptr));
+        actionKundeSuchen->setText(QCoreApplication::translate("MainWindow", "Kunden suchen", nullptr));
+        actionKunden_anzeigen->setText(QCoreApplication::translate("MainWindow", "Kunden anzeigen", nullptr));
+        actionReisen_anzeigen->setText(QCoreApplication::translate("MainWindow", "Reisen anzeigen", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "ID:", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "Startflughafen:", nullptr));
         label_3->setText(QCoreApplication::translate("MainWindow", "Zielflughafen:", nullptr));
@@ -735,6 +787,7 @@ public:
         QTableWidgetItem *___qtablewidgetitem6 = tableWidget_2->horizontalHeaderItem(3);
         ___qtablewidgetitem6->setText(QCoreApplication::translate("MainWindow", "Preis", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_5), QCoreApplication::translate("MainWindow", "Reisen", nullptr));
+        pushButton->setText(QCoreApplication::translate("MainWindow", "\303\204nderungen speichern", nullptr));
         menuEinlesen->setTitle(QCoreApplication::translate("MainWindow", "Datei", nullptr));
         menuBuchungen->setTitle(QCoreApplication::translate("MainWindow", "Buchungen", nullptr));
         menuKunden->setTitle(QCoreApplication::translate("MainWindow", "Kunden", nullptr));
